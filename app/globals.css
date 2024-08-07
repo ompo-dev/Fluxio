@@ -44,3 +44,12 @@
     @apply bg-background text-foreground;
   }
 }
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* Oculta a barra de rolagem no IE e Edge */
+  scrollbar-width: none; /* Oculta a barra de rolagem no Firefox */
+}
