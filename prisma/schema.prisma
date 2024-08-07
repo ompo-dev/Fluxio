@@ -20,7 +20,7 @@ model Shop {
   id          String        @id @default(uuid())
   name        String
   address     String
-  phone       String
+  phone       String        @unique
   description String
   imageUrl    String
   createdAt   DateTime      @default(now())
