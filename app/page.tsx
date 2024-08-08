@@ -9,7 +9,7 @@ import { Tabs } from "./components/Tabs"
 
 export default function Home() {
   return (
-    <main className="max-w-[430px] border border-green-300">
+    <main className="max-w-[430px]">
       <Header />
       <HiNameDay />
       <Searchbar />

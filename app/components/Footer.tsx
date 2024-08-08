@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <>
       <Card className="mt-8 items-center justify-center rounded-none">
-        <CardContent className="mt-3 flex flex-row items-center justify-between">
+        <CardContent className="mx-3 mt-3 flex flex-row items-center justify-between">
           <h2 className="text-sm text-gray-500">
             © 2024 Copyright Fluxio - Maicon P. Barbosa
           </h2>
